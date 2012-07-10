@@ -1,0 +1,48 @@
+connection:
+  host: localhost
+  port: 7878
+
+device: LabjackU3
+params:
+ - name: system_pressure
+   dtype: sensor
+   ltype: 1
+   p1: 1.7
+   p2: 1.3
+   p3: 1.8
+   p4: 1.2
+ - name: coolant_pressure
+   dtype: sensor
+   ltype: 2
+   p1: 1.4
+   p2: 1.3
+   p3: 1.1
+   p4: 1.2
+ - name: tailstock_pressure
+   dtype: sensor
+   ltype: 3
+   p1: 1.7
+   p2: 1.8
+   p3: 1.1
+   p4: 1.2
+ - name: pneumatic_pressure
+   dtype: sensor
+   ltype: 1
+   p1: 1.2
+   p2: 1.3
+   p3: 1.43
+   p4: 1.2
+ - name: linear_vibration
+   dtype: sensor
+   ltype: 2
+   p1: 1.1
+   p2: 1.4
+   p3: 1.83
+   p4: 1.40
+ - name: other_vibration
+   dtype: sensor
+   ltype: 3
+   p1: 1.2
+   p2: 1.1
+   p3: 1.43
+   p4: 1.2

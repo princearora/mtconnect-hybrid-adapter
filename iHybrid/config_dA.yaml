@@ -1,0 +1,20 @@
+connection:
+  host: localhost
+  port: 7877
+
+device: connectone
+params:
+ - name: mvoltage
+   dtype: energy
+   ltype: 1
+   p1: 250
+   p2: 230
+   p3: 253
+   p4: 227
+ - name: sensor-adc
+   dtype: sensor
+   ltype: 1
+   p1: 2000
+   p2: 1600
+   p3: 2050
+   p4: 1500
